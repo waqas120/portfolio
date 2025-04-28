@@ -49,7 +49,7 @@ export default function About() {
             <h3 className="text-2xl font-semibold mb-6">Who am I?</h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm a passionate Front-End Developer with over 3 years of experience in building responsive and
+                I'm a passionate Front-End Developer with over 4 years of experience in building responsive and
                 user-friendly web applications. I specialize in React.js, JavaScript, and modern front-end technologies.
               </p>
               <p>
