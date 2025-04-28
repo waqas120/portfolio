@@ -84,7 +84,7 @@ export default function Hero() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8 }}
               >
-                Experienced Front-End Developer with 3+ years of expertise in building responsive and scalable web
+                Experienced Front-End Developer with 4+ years of expertise in building responsive and scalable web
                 applications using React.js. Proficient in JavaScript, TypeScript, and modern web development tools.
               </motion.p>
 

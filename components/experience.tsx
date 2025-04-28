@@ -12,7 +12,7 @@ const experiences = [
     location: "Lahore",
     period: "Oct 2022 - Present",
     responsibilities: [
-      "Worked as a Frontend Developer for 2 years using React, Redux, and JavaScript to build responsive web applications.",
+      "Worked as a Frontend Developer for 2+ years using React, Redux, and JavaScript to build responsive web applications.",
       "Integrated RESTful APIs to fetch and display data on the front end.",
       "Developing new features or changing existing features.",
       "Compact, readable, and well-structured code writing.",
