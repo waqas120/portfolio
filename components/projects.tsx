@@ -7,7 +7,6 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github } from "lucide-react"
 
-// Sample projects - you should replace these with actual projects
 const projects = [
   {
     id: 1,
@@ -17,7 +16,6 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     technologies: ["React", "Redux", "Tailwind CSS", "Chart.js"],
     demoLink: "https://example.com",
-    githubLink: "https://github.com",
     featured: true,
   },
   {
@@ -27,7 +25,6 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     technologies: ["Next.js", "Firebase", "Tailwind CSS", "Framer Motion"],
     demoLink: "https://example.com",
-    githubLink: "https://github.com",
     featured: true,
   },
   {
@@ -38,7 +35,6 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     technologies: ["React", "TypeScript", "Material UI", "Node.js"],
     demoLink: "https://example.com",
-    githubLink: "https://github.com",
     featured: false,
   },
   {
@@ -49,7 +45,6 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     technologies: ["React", "OpenWeather API", "CSS3", "Axios"],
     demoLink: "https://example.com",
-    githubLink: "https://github.com",
     featured: false,
   },
   {
@@ -59,7 +54,6 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     technologies: ["Next.js", "Framer Motion", "Tailwind CSS"],
     demoLink: "https://example.com",
-    githubLink: "https://github.com",
     featured: false,
   },
   {
@@ -70,7 +64,6 @@ const projects = [
     image: "/placeholder.svg?height=400&width=600",
     technologies: ["React", "Context API", "CSS Modules", "Recipe API"],
     demoLink: "https://example.com",
-    githubLink: "https://github.com",
     featured: false,
   },
 ]
@@ -151,17 +144,6 @@ export default function Projects() {
                   </div>
                 </CardContent>
                 <CardFooter className="px-6 pb-6 pt-0 flex justify-between gap-4">
-                  <Button variant="outline" size="sm" asChild className="flex-1">
-                    <a
-                      href={project.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-1 w-full"
-                    >
-                      <Github className="h-4 w-4" />
-                      Code
-                    </a>
-                  </Button>
                   <Button
                     size="sm"
                     asChild

@@ -3,13 +3,16 @@
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Code, Layers, Database, GitBranch, Globe, Languages, Brain } from "lucide-react"
+import { Code, Layers, Database, GitBranch, Globe, Languages, Brain, FormInput, Lock, UploadCloud } from "lucide-react"
 
 const technicalSkills = [
   { category: "Frontend", skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "React.js", "Next.js"] },
-  { category: "UI Libraries", skills: ["Tailwind CSS", "Material-UI", "Headless UI"] },
-  { category: "State Management", skills: ["Redux", "Context API"] },
+  { category: "UI Libraries", skills: ["Tailwind CSS", "Material-UI", "Headless UI", "Ant Design"] },
+  { category: "State Management", skills: ["Redux", "Context API", "Redux Toolkit"] },
+  { category: "Form Management", skills: ["React Hook Form", "Formik"] },
+  { category: "Authentication", skills: ["JWT", "OAuth", "NextAuth.js"] },
   { category: "Version Control", skills: ["Git", "GitHub", "GitLab"] },
+  { category: "Deployment/Hosting", skills: ["Vercel", "Netlify"] },
   { category: "API", skills: ["RESTful APIs", "GraphQL", "Axios"] },
   { category: "Package Managers", skills: ["npm", "Yarn"] },
 ]
@@ -21,12 +24,24 @@ const languages = [
   { language: "Hindi", level: "Advanced", proficiency: 80 },
 ]
 
-const softSkills = ["Problem-solving", "Attention to detail", "Communication", "Teamwork"]
+const softSkills = [
+  "Problem-solving",
+  "Attention to detail",
+  "Clear and concise communication",
+  "Team collaboration",
+  "Time management",
+  "Critical thinking",
+  "Open to feedback",
+  "Growth mindset",
+];
 
 const skillIcons = {
   Frontend: <Code className="h-5 w-5" />,
   "UI Libraries": <Layers className="h-5 w-5" />,
   "State Management": <Database className="h-5 w-5" />,
+  "Form Management": <FormInput className="h-5 w-5" />,
+  Authentication: <Lock className="h-5 w-5" />,
+  "Deployment/Hosting": <UploadCloud className="h-5 w-5" />,
   "Version Control": <GitBranch className="h-5 w-5" />,
   API: <Globe className="h-5 w-5" />,
   "Package Managers": <Code className="h-5 w-5" />,

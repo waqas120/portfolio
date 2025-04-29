@@ -8,7 +8,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 export default function About() {
   const personalInfo = [
     { icon: <Mail className="h-5 w-5" />, label: "Email", value: "qaziwaqas120@gmail.com" },
-    { icon: <MapPin className="h-5 w-5" />, label: "Address", value: "E1 Block, Johar Town Lahore" },
+    { icon: <MapPin className="h-5 w-5" />, label: "Address", value: "Lahore, Pakistan" },
     { icon: <Phone className="h-5 w-5" />, label: "Phone", value: "+923070660600" },
     { icon: <Flag className="h-5 w-5" />, label: "Nationality", value: "Pakistani" },
   ]

@@ -60,7 +60,7 @@ export default function Contact() {
     {
       icon: <MapPin className="h-5 w-5" />,
       title: "Address",
-      value: "E1 Block, Johar Town Lahore",
+      value: "Lahore, Pakistan",
       link: "https://maps.google.com/?q=Johar+Town+Lahore",
     },
   ]
