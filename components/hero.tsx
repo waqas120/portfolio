@@ -110,7 +110,7 @@ export default function Hero() {
               </div>
 
               <motion.p
-                className="text-muted-foreground max-w-lg"
+                className="text-muted-foreground me-3 text-justify"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.8 }}
